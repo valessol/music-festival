@@ -7,6 +7,7 @@ const webp = require('gulp-webp')
 const paths = {
     imagenes: 'src/img/**/*',
     scss: 'src/scss/**/*.scss',
+    js: 'src/js/**/*.js'
 }
 
 function css() {
@@ -22,6 +23,8 @@ function minificarcss() {
         }))
         .pipe(dest('./build/css'))
 }
+
+
 
 function imagenes () {
     return src(paths.imagenes)
