@@ -626,3 +626,66 @@ header h1 {
 .btn-cerrar:hover {
   cursor: pointer;
 }
+
+.boletos {
+  background-color: #4cb8b3;
+  padding: 5rem 0;
+}
+.boletos h3, .boletos p {
+  text-align: center;
+  color: #fff;
+}
+.boletos .boletos-content {
+  margin-top: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+}
+.boletos .plan p {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.pase {
+  width: 100%;
+  border-spacing: 0;
+}
+.pase thead {
+  background-color: #f53756;
+}
+.pase thead th {
+  padding: 1.25rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 2rem;
+}
+.pase tbody {
+  background-color: #fff;
+}
+.pase tbody td {
+  padding: 1.25rem;
+  border-bottom: 1px solid #e1e1e1;
+}
+.pase tbody tr:last-of-type td {
+  border: none;
+}
+.pase tfoot {
+  background-color: #752f97;
+}
+.pase tfoot td {
+  padding: 1.25rem;
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+}
+
+footer {
+  background-color: #f53756;
+  padding: 1.25rem;
+  text-align: center;
+}
+footer p {
+  color: #fff;
+  margin: 0;
+}
