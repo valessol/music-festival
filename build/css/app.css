@@ -421,6 +421,11 @@ header h1 {
     margin-bottom: 0;
   }
 }
+header.fixed {
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 0.3rem 1rem #444;
+}
 
 .navbar {
   display: flex;
